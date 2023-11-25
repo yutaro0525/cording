@@ -1,0 +1,198 @@
+
+@media screen and (min-width:768px) {
+  
+
+
+
+html {
+  font-family: 'Crimson Text', serif;
+  font-size: 100%;
+}
+
+header {
+  margin: 5% 5%;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2px;
+  max-width: 1000px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#nav {
+  display: flex;
+}
+
+#mainvisual {
+  width: 100%;
+}
+
+#wood {
+  margin: 20px 0;
+
+}
+
+#logo {
+  width: 90px;
+}
+
+#nav-pc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.nav {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  margin-right: 15px;
+}
+
+#concept , #work {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.ph {
+  width: 50%;
+  padding: 0 5%;
+}
+
+.text {
+  width: 50%;
+  padding: 0 3%;
+}
+
+.line {
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.sub {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot{
+  font-size: 10px;
+  margin-top: 40px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Crimson Text', serif;
+  font-size: 100%;
+}
+
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2px;
+  max-width: 1000px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#nav {
+  display: flex;
+}
+
+#mainvisual {
+  width: 100%;
+  height: 50vw;
+}
+
+header img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#wood {
+  margin: 20px 3%;
+}
+
+#logo {
+  width: 90px;
+}
+
+#nav-pc {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.nav {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  margin-right: 15px;
+}
+
+
+#work {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ph {
+  width: 80%;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+.text {
+  width: 70%;
+  padding: 0 3%;
+}
+
+.line {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.sub {
+  font-size: 20px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot{
+  font-size: 10px;
+  margin-top: 40px;
+}
+
+
+}
