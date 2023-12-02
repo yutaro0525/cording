@@ -1,0 +1,207 @@
+html {
+  background-color: aliceblue
+}
+  
+
+@media screen and (min-width:1025px) {
+
+#photobook {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* タイトル文字 */
+#title{
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 40px;
+  margin-bottom: 3px
+}
+
+/* メインビジュアル */
+#photobook img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* インデックス部分 */
+#index{
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+#box {
+  max-width: 450px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#box h1 {
+  font-size: 15px;
+  
+}
+
+#box p {
+  font-size: 12px;
+}
+
+
+/* DETAIL部分 */
+
+#detail {
+  max-width: 450px;
+  margin: 0 auto ;
+
+}
+
+#detail h1 {
+  font-size: 15px;
+}
+
+#content {
+  display: flex;
+}
+
+#photo img {
+  width: 200px;
+  height: 230px;
+  margin-right: 30px;
+}
+
+#detail h2 {
+  font-size: 15px;
+}
+
+#detail td, #detail p, #detail a {
+  font-size: 12px;
+}
+
+.list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
+}
+
+a {
+  color: black;
+}
+
+/* フッター */
+
+footer {
+  margin: 0 auto;
+  max-width: 450px;
+}
+footer p {
+  font-size: 8px;
+}
+}
+
+
+
+
+
+/* レスポンシブ */
+
+@media screen and (max-width:1024px) {
+
+  #photobook {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* タイトル文字 */
+  #title{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 3px
+  }
+  
+  /* メインビジュアル */
+  #photobook img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  /* インデックス部分 */
+  #index{
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  
+  #box {
+    max-width: 450px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #box h1 {
+    font-size: 15px;
+    
+  }
+  
+  #box p {
+    font-size: 12px;
+  }
+  
+  
+  /* DETAIL部分 */
+  
+  #detail {
+    max-width: 450px;
+    margin: 0 auto ;
+  
+  }
+  
+  #detail h1 {
+    font-size: 15px;
+  }
+  
+  #content {
+    display: inline-block;
+  }
+  
+  #detail h2 {
+    font-size: 15px;
+  }
+  
+  #detail td, #detail p, #detail a {
+    font-size: 12px;
+  }
+
+ .width {
+  width: 300px;
+ }
+
+ .width2 {
+  width: 150px;
+ }
+  
+  .list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  /* フッター */
+  
+  footer {
+    margin: 100px auto 0 auto;
+    max-width: 450px;
+  }
+  footer p {
+    font-size: 8px;
+  }
+
+}
