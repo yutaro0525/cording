@@ -1,0 +1,257 @@
+
+
+#photobook2 {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* タイトル文字 */
+#title{
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: 40px;
+  margin-bottom: 3px;
+}
+
+/* メインビジュアル */
+#photobook2 img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* インデックス */
+#index {
+  max-width: 650px;
+  height: 300px;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#index h1 {
+  font-size: 15px;
+  text-align: center;
+}
+
+#box {
+  border: 1px solid black;
+  padding: 10px 30px;
+  margin: 50px 40px 20px 40px;
+}
+
+#index p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* 4つの写真 */
+ul {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+#photos{
+  padding: 0;
+}
+
+
+#photos li {
+  width: 49%;
+}
+
+/* DETAIL */
+#detail {
+  background-color: whitesmoke;
+  padding: 50px 40px 20px 40px;
+}
+
+#detail h1 {
+  font-size: 15px;
+  text-align: center;
+}
+
+#detail p, #detail a {
+  font-size: 12px;
+}
+
+#deta {
+  display: flex;
+}
+
+.black {
+  font-weight: bold;
+}
+
+#data {
+  width: 200px;
+}
+
+#data p {
+  margin: 0;
+}
+
+#text p {
+  margin-top: 0;
+}
+
+#stick {
+  margin-left: 30px;
+ width: 0.5px;
+ height: 120px;
+ background-color: black;
+}
+
+#detail a {
+  color: black;
+}
+
+#text {
+  margin-left: 30px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 8px;
+  margin-top: 60px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1023px) {
+
+#photobook2 {
+  width: 100%;
+
+}
+
+  main {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  
+  /* タイトル文字 */
+  #title{
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 3px;
+  }
+  
+  /* メインビジュアル */
+  #photobook2 img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  /* インデックス */
+  #index {
+    max-width: 650px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  #index h1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  #box {
+    border: 1px solid black;
+    padding: 10px 30px;
+    margin: 50px 30px 20px 30px;
+  }
+  
+  #index p {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  /* 4つの写真 */
+  ul {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  #photos{
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  
+  #photos li {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* DETAIL */
+  #detail {
+    background-color: whitesmoke;
+    padding: 50px 40px 20px 40px;
+  }
+  
+  #detail h1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  #detail p, #detail a {
+    font-size: 12px;
+  }
+  
+  #deta {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .black {
+    font-weight: bold;
+  }
+  
+  #data {
+    width: 100%;
+  }
+  
+  #data p {
+    margin: 0;
+  }
+  
+  #text p {
+    margin-top: 0;
+  }
+  
+  #stick {
+   width: 100%;
+   height: 1px;
+   background-color: black;
+   margin: 20px auto;
+  }
+  
+  #detail a {
+    color: black;
+  }
+  
+  #text {
+    margin-left: 30px;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 8px;
+    margin-top: 60px;
+  }
+}
