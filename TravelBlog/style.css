@@ -1,0 +1,293 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+  margin: 0;
+}
+
+
+
+/* ヘッダー要素 */
+
+header #logo {
+  max-width: 1000px;
+  margin: 10px auto;
+  padding-left: 10px;
+}
+
+header img {
+  width: 120px;
+}
+
+header #nav-box {
+  background-color: #333631;
+  width: 100%;
+  padding: 3px 0 5px 0;
+}
+
+header #nav-menu {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header a {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  padding: 0 0 0 30px;
+}
+
+
+/* main要素 */
+main {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 横並びの３枚の写真 */
+
+#three-photos {
+  display: flex;
+  margin: 20px 0;
+}
+
+#three-photos .three-photo {
+  width: 30%;
+  margin: 0 auto;
+}
+
+#three-photos img {
+  width: 100%;
+}
+
+#three-photos p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#three-photos .readmore {
+  text-align: center;
+}
+
+#three-photos a {
+  color: black;
+  font-size: 12px;
+}
+
+
+/* 真ん中の複雑な要素 */
+
+#pickup {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* 左側 */
+
+#pickup #left {
+  max-width: 750px;
+  width: 100%;
+  padding: 20px;
+}
+
+#pickup #left h2 {
+  font-size: 18px;
+}
+
+#pickup #left .date {
+  font-size: 11px;
+}
+
+#pickup #left img {
+  width: 100%;
+}
+
+#pickup #left .text {
+  font-size: 13px;
+  margin: 0 40px;
+  margin-bottom: 20px;
+}
+
+#pickup #left .readmore {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#pickup #left a {
+  color: black;
+  font-size: 12px;
+}
+
+
+/* 右側 */
+
+#pickup #right {
+  max-width: 230px;
+  width: 100%;
+  padding: 20px;
+}
+
+#pickup #right #profile {
+  display: block;
+  text-align: center;
+}
+
+#pickup #right #profile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+#pickup #right #profile h3 {
+  font-size: 13px;
+  text-align: center;
+}
+
+#pickup #right #profile p {
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+#pickup #right #ranking h3 {
+  text-align: center;
+  font-size: 13px;
+}
+
+#pickup #right #ranking img {
+  width: 100%;
+}
+
+#pickup #right #ranking p {
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+#pickup #right #archive h3 {
+  text-align: center;
+  font-size: 13px;
+}
+
+#pickup #right #archive a {
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+#pickup #right #archive .stick {
+  background-color: #333631;
+  height: 0.5px;
+  width: 100%;
+  margin: 15px auto;
+}
+
+
+/* フッター */
+
+footer {
+  background-color: lightgrey;
+}
+
+footer #footer-box {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+
+footer .foot {
+  width: 33%;
+  margin-left: 20px;
+}
+
+footer h3 {
+  font-size: 13px;
+  margin: 25px 0;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer .select::before {
+  content: "▶";
+}
+
+footer a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+footer .stick {
+  background-color: #333631;
+  height: 0.5px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+footer #last {
+  font-size: 8px;
+  margin-bottom: 0;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  /* 3枚の写真要素 */
+
+  #three-photos {
+    display: block;
+    margin: 20px 0;
+  }
+
+  #three-photos .three-photo {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  /* 真ん中要素 */
+
+  #pickup {
+    display: block;
+  }
+
+  #pickup #left {
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  #pickup #left img {
+    width: 100%;
+  }
+
+  #pickup #right {
+    max-width: 400px;
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+
+  /* フッター */
+
+  footer #footer-box {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    }
+
+    footer .foot {
+      width: 90%;
+    }
+
+}
